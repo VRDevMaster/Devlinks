@@ -39,7 +39,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -61,11 +62,10 @@ body * {
 }
 
 /* switch */
-#switch{
+#switch {
   width: 64px;
   position: relative;
   margin: 4px auto;
-
 }
 #switch button {
   width: 32px;
@@ -78,10 +78,10 @@ body * {
   top: 50%;
   left: 0;
   z-index: 1;
- transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.ligth  #switch button{
+.ligth #switch button {
   right: 0;
   left: initial;
 }
